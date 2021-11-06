@@ -1,7 +1,8 @@
 import { FC } from 'react';
+import BarPlot from './components/BarPlot';
 
 const App: FC = () => {
-  return <div>Hello World</div>;
+  return <BarPlot />;
 };
 
 export default App;
