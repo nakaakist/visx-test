@@ -68,7 +68,7 @@ const BarPlot: FC = () => {
                 }}
               />
               <text
-                key={`p-${letter}`}
+                key={`pl-${letter}`}
                 fill="#0033aa"
                 x={xScale(letter)}
                 y={yMax - barHeight}
@@ -80,7 +80,7 @@ const BarPlot: FC = () => {
                 {letter}
               </text>
               <text
-                key={`p-${letter}`}
+                key={`pf-${letter}`}
                 fill="#0066cc"
                 x={xScale(letter)}
                 y={yMax - barHeight}
