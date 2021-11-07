@@ -19,10 +19,10 @@ export const [theme, themeVars] = createTheme({
     xlarge: '32px',
   },
   fontSize: {
-    small: '12px',
-    medium: '16px',
-    large: '20px',
-    xlarge: '40px',
-    xxlarge: '80px',
+    small: '0.5rem',
+    medium: '1rem',
+    large: '1.4rem',
+    xlarge: '2rem',
+    xxlarge: '4rem',
   },
 });

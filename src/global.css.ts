@@ -7,3 +7,15 @@ globalStyle('body, body *', {
   fontFamily: "'Roboto', sans-serif",
   fontWeight: 300,
 });
+
+globalStyle('html', {
+  fontSize: '16px',
+  '@media': {
+    'screen and (min-width: 320px)': {
+      fontSize: 'calc(16px + 3 * ((100vw - 320px) / 680))',
+    },
+    'screen and (min-width: 1000px)': {
+      fontSize: '19px',
+    },
+  },
+});
