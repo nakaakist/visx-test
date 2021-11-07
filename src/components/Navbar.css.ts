@@ -27,7 +27,7 @@ export const title = style({
 
 export const hr = style({
   width: '100%',
-  borderWidth: '1px',
+  borderTop: '0px solid',
   opacity: 0.5,
   borderColor: themeVars.color.brand4,
   marginTop: themeVars.space.small,

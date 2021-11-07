@@ -16,11 +16,13 @@ export const [theme, themeVars] = createTheme({
     small: '4px',
     medium: '8px',
     large: '16px',
+    xlarge: '32px',
   },
   fontSize: {
     small: '12px',
     medium: '16px',
     large: '20px',
     xlarge: '40px',
+    xxlarge: '80px',
   },
 });
