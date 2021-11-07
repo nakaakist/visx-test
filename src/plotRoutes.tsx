@@ -1,5 +1,6 @@
 import { ReactElement } from 'react';
 import BarPlot from './components/BarPlot';
+import CelonisPlot from './components/CelonisPlot';
 
 export type PlotRoute = {
   name: string;
@@ -18,9 +19,8 @@ export const plotRoutes: PlotRoute[] = [
   },
   {
     name: 'celonis',
-    to: 'bar',
-    description:
-      'simple bar plot that shows the frequency distribution of letters',
-    plot: <BarPlot />,
+    to: 'celonis',
+    description: 'Celonis-like plot that shows the network of nodes',
+    plot: <CelonisPlot />,
   },
 ];
