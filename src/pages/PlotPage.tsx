@@ -16,7 +16,9 @@ const PlotPage: FC<PlotPageProps> = ({
   return (
     <>
       <h1 className={styles.title}>{title}</h1>
-      <p className={styles.description}>{renderMultiLineText(description)}</p>
+      <div className={styles.description}>
+        {renderMultiLineText(description)}
+      </div>
       {plot}
     </>
   );
