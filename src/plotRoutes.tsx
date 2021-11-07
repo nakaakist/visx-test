@@ -1,21 +1,26 @@
 import { ReactElement } from 'react';
-import BarPlot from './pages/BarPlot';
+import BarPlot from './components/BarPlot';
 
 export type PlotRoute = {
   name: string;
   to: string;
-  element: ReactElement;
+  description: string;
+  plot: ReactElement;
 };
 
 export const plotRoutes: PlotRoute[] = [
   {
     name: 'bar',
     to: 'bar',
-    element: <BarPlot />,
+    description:
+      'Simple bar plot that shows the frequency distribution of letters.\nUses "Bar" from "@visx/shape."',
+    plot: <BarPlot />,
   },
   {
     name: 'celonis',
     to: 'bar',
-    element: <BarPlot />,
+    description:
+      'simple bar plot that shows the frequency distribution of letters',
+    plot: <BarPlot />,
   },
 ];

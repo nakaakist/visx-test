@@ -6,7 +6,11 @@ export type ContainerProps = {
 };
 
 const Container: FC<ContainerProps> = ({ children }: ContainerProps) => {
-  return <div className={styles.container}>{children}</div>;
+  return (
+    <div className={styles.containerWrapper}>
+      <div className={styles.container}>{children}</div>
+    </div>
+  );
 };
 
 export default Container;

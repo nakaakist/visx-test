@@ -21,5 +21,6 @@ export const [theme, themeVars] = createTheme({
     small: '12px',
     medium: '16px',
     large: '20px',
+    xlarge: '40px',
   },
 });
