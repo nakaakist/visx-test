@@ -20,7 +20,7 @@
     "vite": "^2.6.13"
   },
   "dependencies": {
-    "@fontsource/open-sans": "^4.5.2",
+    "@fontsource/roboto": "^4.5.1",
     "@vanilla-extract/css": "^1.6.3",
     "@visx/gradient": "^2.1.0",
     "@visx/group": "^2.1.0",

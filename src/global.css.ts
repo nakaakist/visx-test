@@ -4,6 +4,6 @@ globalStyle('body, body *', {
   margin: '0px',
   padding: '0px',
   boxSizing: 'border-box',
-  fontFamily: 'Open Sans',
+  fontFamily: "'Roboto', sans-serif",
   fontWeight: 300,
 });

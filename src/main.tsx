@@ -1,4 +1,5 @@
-import '@fontsource/open-sans';
+import '@fontsource/roboto';
+import '@fontsource/roboto/300.css';
 import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import App from './app';
